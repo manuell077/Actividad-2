@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  box-sizing: border-box;
+
+
+}
+
+.imagen{
+  display: block;
+  height: 200px;
+  width:  400px;
+  margin:  0 auto;
+  padding: 20px;
+  filter: drop-shadow(0 0 15px yellow);
+  position: relative;
+  top: 50rem;
+
+
+
+
+}
+
+.card{
+  height: 440px;
+  width: 400px; 
+  margin: 60px auto;
+  border: solid 6px #000;
+  display: block;
+  
+  bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  place-content: center;
+  box-shadow:  15px 15px 20px #000;
+
+}
+.spiderman{
+  height: 225px;
+  width: 388px;
+  position: relative;
+  bottom: 6px;
+  
+
+}
+.letra{
+  display: block;
+  color: red;
+  text-align: center;
+  
+}
+.texto{
+
+  text-align: center;
+
+}
+.button{
+  background-color: brown;
+  border-radius: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  height: 40px;
+  width: 160px;
+  place-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
